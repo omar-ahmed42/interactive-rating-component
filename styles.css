@@ -151,6 +151,11 @@ body {
   text-align: center;
 }
 
+.rating-active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
 .submit-btn {
   display: flex;
 
