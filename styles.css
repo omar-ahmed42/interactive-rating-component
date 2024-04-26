@@ -185,6 +185,94 @@ body {
     cursor: pointer;
 }
 
+.thanks-card {
+  background-image: radial-gradient(
+    circle at top,
+    hsl(213, 19%, 18%),
+    hsl(216, 12%, 8%)
+  );
+  box-shadow: 1px 1px 1px hsla(213, 20%, 18%, 0.322);
+
+  margin: auto;
+
+  width: 400px;
+  height: fit-content;
+
+  border-radius: 20px;
+}
+
+.selection-wrapper {
+  display: flex;
+  width: 100%;
+
+  height: 30px;
+
+  word-spacing: 1px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.selection-wrapper > .selection-result {
+  border-radius: 30px;
+  height: 100%;
+
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+
+  padding: 14px 15px 12px 15px;
+  font-weight: 300;
+  font-size: 0.83rem;
+
+  background-color: hsl(213, 19%, 18%);
+  color: hsla(25, 78%, 60%, 0.849);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.submission-wrapper {
+  display: flex;
+
+  width: 100%;
+  height: 108px;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.submission-wrapper > img:hover {
+  cursor: pointer;
+}
+
+.thank-header {
+  margin: 30px auto 10px auto;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.thank-description {
+  text-align: center;
+
+  margin: 0 auto;
+
+  text-overflow: ellipsis;
+
+  padding: 0 5px;
+
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.88rem;
+
+  color: hsl(216, 12%, 54%);
+}
+
+
 @media only screen and (max-width: 500px) {
   .card {
     width: 320px;
